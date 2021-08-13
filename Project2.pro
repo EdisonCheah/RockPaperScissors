@@ -28,18 +28,34 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     page2.cpp \
-    page3.cpp
+    page3.cpp \
+    nowins.cpp \
+    settings.cpp \
+    page2easy.cpp \
+    commonvars.cpp \
+    enemychoice.cpp \
+    pvp.cpp
 
 HEADERS += \
         mainwindow.h \
-    page2.h \
     page3.h \
-    commonvars.h
+    commonvars.h \
+    nowins.h \
+    settings.h \
+    page2.h \
+    page2easy.h \
+    enemychoice.h \
+    pvp.h
 
 FORMS += \
         mainwindow.ui \
     page2.ui \
-    page3.ui
+    page3.ui \
+    nowins.ui \
+    settings.ui \
+    page2easy.ui \
+    enemychoice.ui \
+    pvp.ui
 
 LIBS += \
     -L/usr/local/lib -lwiringPi

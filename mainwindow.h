@@ -34,6 +34,8 @@ private slots:
 
 //    void on_button_Clicked();
 
+    void on_SettingsButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     void CreateButton();

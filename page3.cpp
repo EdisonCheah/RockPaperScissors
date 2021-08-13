@@ -1,6 +1,7 @@
 #include "page3.h"
 #include "mainwindow.h"
 #include "ui_page3.h"
+#include "commonvars.h"
 
 Page3::Page3(QWidget *parent) :
     QDialog(parent),

@@ -1,20 +1,19 @@
-#ifndef PAGE2_H
-#define PAGE2_H
+#ifndef PAGE2EASY_H
+#define PAGE2EASY_H
 
 #include <QDialog>
 
 namespace Ui {
-class Page2;
+class Page2Easy;
 }
 
-class Page2 : public QDialog
+class Page2Easy : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit Page2(QWidget *parent = nullptr);
-    ~Page2();
-
+    explicit Page2Easy(QWidget *parent = nullptr);
+    ~Page2Easy();
 
 private slots:
 
@@ -29,8 +28,8 @@ private slots:
     void on_ResetButton_clicked();
 
 private:
-    Ui::Page2 *ui;
+    Ui::Page2Easy *ui;
     void CreateButton();
 };
 
-#endif // PAGE2_H
+#endif // PAGE2EASY_H

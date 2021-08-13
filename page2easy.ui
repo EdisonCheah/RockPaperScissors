@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Page2</class>
- <widget class="QDialog" name="Page2">
+ <class>Page2Easy</class>
+ <widget class="QDialog" name="Page2Easy">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -16,57 +16,11 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(15, 93, 48);</string>
   </property>
-  <widget class="QWidget" name="horizontalLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>180</y>
-     <width>101</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="ContinueLayout"/>
-  </widget>
-  <widget class="QLabel" name="outcomeLabel">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>150</y>
-     <width>351</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border: none;
-background-color: rgba(255, 255, 255, 0);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>20</y>
-     <width>161</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgba(21, 160, 26, 0);
-color: rgb(255, 255, 255);
-border: none</string>
-   </property>
-   <property name="text">
-    <string>Which do you choose?</string>
-   </property>
-  </widget>
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>70</y>
+     <x>33</x>
+     <y>80</y>
      <width>311</width>
      <height>51</height>
     </rect>
@@ -125,11 +79,39 @@ border: none</string>
     </item>
    </layout>
   </widget>
+  <widget class="QLabel" name="outcomeLabel">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>160</y>
+     <width>351</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>263</x>
+     <y>190</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="ContinueLayout"/>
+  </widget>
   <widget class="QLabel" name="UserVsCompLabel">
    <property name="geometry">
     <rect>
-     <x>177</x>
-     <y>210</y>
+     <x>170</x>
+     <y>220</y>
      <width>51</width>
      <height>22</height>
     </rect>
@@ -146,8 +128,8 @@ border: none</string>
   <widget class="QPushButton" name="ResetButton">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>199</y>
+     <x>13</x>
+     <y>209</y>
      <width>99</width>
      <height>41</height>
     </rect>
@@ -158,6 +140,24 @@ border: none</string>
    </property>
    <property name="text">
     <string>Reset Wins</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>113</x>
+     <y>30</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(21, 160, 26, 0);
+color: rgb(255, 255, 255);
+border: none</string>
+   </property>
+   <property name="text">
+    <string>Which do you choose?</string>
    </property>
   </widget>
  </widget>

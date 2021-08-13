@@ -1,23 +1,24 @@
-#ifndef PAGE2_H
-#define PAGE2_H
+#ifndef PVP_H
+#define PVP_H
 
 #include <QDialog>
 
 namespace Ui {
-class Page2;
+class PvP;
 }
 
-class Page2 : public QDialog
+class PvP : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit Page2(QWidget *parent = nullptr);
-    ~Page2();
+    explicit PvP(QWidget *parent = nullptr);
+    ~PvP();
 
+protected:
+    void keyPressEvent(QKeyEvent *e);
 
 private slots:
-
     void on_RockButton_clicked();
 
     void on_PaperButton_clicked();
@@ -28,9 +29,11 @@ private slots:
 
     void on_ResetButton_clicked();
 
+    void on_CheckButton_clicked();
+
 private:
-    Ui::Page2 *ui;
+    Ui::PvP *ui;
     void CreateButton();
 };
 
-#endif // PAGE2_H
+#endif // PVP_H
